@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: depl2
+  labels:
+    pod: depl2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: task05
+  template:
+    metadata:
+      labels:
+        app: task05
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        ports:
+          - containerPort: 80
+        env:
+          - name: HTTP_PORT
+            value: "8080"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
