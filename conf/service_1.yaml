@@ -1,22 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc04
+  name: svc05
 spec:
   selector:
-    app: task04
+    app: task05
   ports:
-  - name: http1
+  - name: http
     protocol: TCP
-    port: 9001
+    port: 80
     targetPort: 80
-  - name: http2
-    protocol: TCP
-    port: 9002
-    targetPort: 8080
-#  - name: http3
-#    protocol: TCP
-#    port: 9003
-#    targetPort: 8080
-  externalIPs:
-    - 192.168.120.100
+  # externalIPs:
+  #   - 192.168.120.100
