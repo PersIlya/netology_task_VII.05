@@ -41,7 +41,8 @@
 ## Ссылки на файлы:
 >[frontend](./conf/frontend.yaml);    
 >[backend](./conf/backend.yaml);  
->[Service](./conf/service_1.yaml).  
+>[frontend service](./conf/svc_frontend.yaml).  
+>[backend service](./conf/svc_backend.yaml).  
 
 ![localImage](./Yes.png)
 
@@ -55,16 +56,11 @@
 4. Предоставить манифесты и скриншоты или вывод команды п.2.
 
 ## Решение
-> по пунктам 1-3
+> по пунктам 1-4
 ![localImage](./screen_VII.05_2.png)        
-> по пункту 3
-![localImage](./screen_VII.05_2.png)      
-> по пункту 4
-![localImage](./screen_VII.05_3.png)      
+
 
 ## Ссылки на файлы:
->[Deploy](./conf/deploy_1.yaml);    
->[Service](./conf/service_1.yaml);   
->[Pod](./conf/pod.yaml).   
+>[Ingress](./conf/ingress.yaml).   
 
 ![localImage](./Yes.png)
