@@ -1,6 +1,6 @@
 
 ## <p style="text-align: center;">ОТЧЕТ</p> <p style="text-align: center;">по домашним заданиям к занятию «Сетевое взаимодействие в K8S. Часть 2»</p>
-## <p style="text-align: right;">Выполнил: студент Порсев И.С.</p>
+## <p style="text-align: right;">Выполнил: студент ___________.</p>
 
 ### Цель задания
 
